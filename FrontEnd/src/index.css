@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200 ');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GoogleSans-Thin";
+  src: url("../public/fonts/GoogleSans-Thin.otf");
+}
+
+@font-face {
+  font-family: "GoogleSans-Light";
+  src: url("../public/fonts/GoogleSans-Light.otf");
+}
+
+@font-face {
+  font-family: "GoogleSans-Regular";
+  src: url("../public/fonts/GoogleSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "GoogleSans-Medium";
+  src: url("../public/fonts/GoogleSans-Medium.otf");
+}
+
+@font-face {
+  font-family: "GoogleSans-Bold";
+  src: url("../public/fonts/GoogleSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "GoogleSans-Black";
+  src: url("../public/fonts/GoogleSans-Black.otf");
+}
+
+body {
+  font-family: GoogleSans-Regular !important;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3d685e;
+  border-radius: 100rem;
+}

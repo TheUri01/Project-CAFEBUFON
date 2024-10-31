@@ -1,0 +1,13 @@
+.layout {
+    color: var(--txt-color);
+    overflow-x: hidden;
+}
+
+.layout__content {
+    padding-left: var(--sidebar-width);
+    /* background-color: var(--second-bg); */
+}
+
+.layout__content-main {
+    padding: 0px 30px 30px 30px;
+}
